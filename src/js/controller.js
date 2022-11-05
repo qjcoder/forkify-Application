@@ -50,7 +50,7 @@ const controlSearchResults = async function () {
 
     paginationView.render(model.state.search);
   } catch (err) {
-    recipeView.renderErrorMessage();
+    console.log(err);
   }
 };
 
